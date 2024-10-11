@@ -1,0 +1,9 @@
+.container-products {
+    display: flex;               /* Flexbox layout */
+    flex-wrap: wrap;             /* Hacer que los elementos se envuelvan automáticamente */
+    gap: 1rem;                   /* Espacio entre cada tarjeta */
+    justify-content: center;     /* Centrar los productos horizontalmente */
+    align-items: flex-start;     /* Alinear los productos en la parte superior */
+    padding: 1rem;       
+     /* Añadimos un pequeño padding */
+}
