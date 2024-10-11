@@ -70,15 +70,16 @@ class Dashboard extends HTMLElement {
 	render() {
 		if (this.shadowRoot){
 			this.shadowRoot.innerHTML = `
-			<link rel="stylesheet" href="../src/index.css">
-		   <h1>Store Products</h1>
-		   <hr>
-		   <div class="container-products"></div>
-		   
-		   <h1>Added to cart</h1>
-		   <hr>
-		   <div class="container-shopping"></div>
-		   `;
+    <link rel="stylesheet" href="../src/index.css">
+    <h1>Store Products</h1>
+    <hr>
+    <div class="dashboard-container">
+        <div class="container-products"></div>
+        <div class="container-shopping">
+		<h1>Cart Products</h1> </div>
+    </div>
+`;
+
 	
 	
 		   const container = this.shadowRoot?.querySelector('.container-products');

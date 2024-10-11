@@ -76,7 +76,7 @@ button {
     border-radius: 20px;
     border: none;
     color: white;
-    background-color: #3adae3;
+    background-color: #277627;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     margin-top: 0.2rem;
     cursor: pointer;
@@ -84,7 +84,7 @@ button {
 }
 
 button:hover {
-    background-color: #8e550f;
+    background-color: #0e4108;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3),
                 0 6px 10px rgba(0, 0, 0, 0.25);
 }
